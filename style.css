@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    font-family: 'Roboto';
+}
+.navbar-nav li a {
+    font-size: 16px;
+    transition: letter-spacing 0.3s;
+}
+.navbar-nav li a:hover {
+    letter-spacing: 2px;
+}
+
+#home{
+    display: flex;
+}
+.light {
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 260px;
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .light::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(./Apollo_Hanging_Lamp_LP.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: filter 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .light:hover::before {
+    filter: brightness(70%);
+  }
+  
+.light p,a{
+    margin-left: 13px;
+}
+.light .ceil{
+    color:#9b722c;
+    margin-top: 10px;
+    font-size: 35px;
+    width: 100px;
+}
+.light span{
+    font-size: 30px;
+    color:#f7f7f7;
+}
+.light a{
+    color: #1f9197;
+}
+.new .container1{
+    margin-left:10%;
+    background-color:#960449;
+    margin-top:25px;
+    height: 156px;
+    width: 260px;
+    background-image: url("https://www.freeiconspng.com/uploads/diwali-png-12.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position-x: right;
+}
+
+.new .container1 p{
+    width: 100px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: white;
+}
+.container1 a{
+    color: white;
+    margin-left: 20px;
+}
+.carousel{
+    margin-left: 4%;
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 720px;
+    height: 450px;
+}
+.carousel-inner img{
+    width: 650px;
+    height: 450px;
+}
+.sale .container{
+    background-image: url(./off.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 260px;
+    margin-top: 20px;
+    margin-right: 10%;
+    font-family: 'Courgette', cursive;
+}
+.sale .container h3{
+    padding-top: 10px;
+    color: white;
+    font-size: 30px;
+}
+.sale .container h4{
+    color: white;
+    font-family: 'Courgette', cursive;
+}
+.sale .container a{
+    color: white;
+}
+.lamp {
+    margin-right: 10%;
+    margin-top: 20px;
+    width: 260px;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .lamp::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(./pen.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: filter 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .lamp:hover::before {
+    filter: brightness(70%);
+  }
+  
+.lamp h3,h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+}
+.lamp h3{
+    color:#fdfcfc;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.lamp h4{
+    margin-left: 100px;
+    font-size: 40px;
+    color: #000000; 
+}
+.lamp p {
+    color: white;
+    margin-top: 40px;
+    font-size: 12px;
+    width: 200px;
+    text-align: right;
+    margin-left: 40px;
+}
+.sale .lamp a{
+    color: white;
+    margin-left: 150px;
+}
+.top{
+    font-size: 40px;
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.picks img{
+    width: 200px;
+    height: 160px;
+    border-radius: 100px;
+    justify-content: space-between;
+}
+.picks a:hover{
+    transform: scale(1.2);
+}
+.picks a{
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.container2{
+    margin-top: 50px;
+    width: 100%;
+    height: 130px;
+    background-image: url(./offer-637.png);
+    background-repeat: no-repeat;
+background-size: 260px;
+background-position: 100px bottom;
+background-color:#9E1380;
+}
+
+.extra{
+    margin-left: 35%;
+    color: white;
+}
+.extra h3{
+    padding-top: 30px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 600;
+font-size: 35px;
+}
+.vertical-line {
+    width: 1px; 
+    height: 80px; 
+    background-color:white;
+margin-left: 2%;
+margin-top: 2%;
+}
+.off h3{
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-left: 25%;
+    width: 100px;
+    font-size: 30px;
+    color: white;
+}
+.coupon h3{
+    margin-left: 75%;
+    margin-top: 60px;
+    background-color:white;
+    width: 104px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border: 2px dashed;
+}
+.sign a{
+    background-color: #ff1900;
+    color: white;
+    width: 140px;
+    margin-left: 100%;
+    margin-top: 22%;
+}
+.sign p {
+    margin-top:5px;
+    width: 150px;
+    font-size: 15px;
+    margin-left: 100%;
+    color: white;
+}
+.sign .btn:hover{
+    background-color: white;
+    color: #ff1900;
+}
+
+.card-text .fa {
+    font-size: 12px;
+    margin-left: 0px;
+    color: gray;
+  }
+  .card-text .checked{
+    color: orange;
+  }
+  #newest .row{
+    background-color: #f898c541;
+    padding: 30px;
+  }
+#newest h3{
+    font-size: 40px;
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-text{
+    font-size:20px;
+    color: #ff1900;
+}
+.card-text .cut{
+    text-decoration: line-through;
+    margin-left: 5px;
+    color: #000;
+    font-size: 14px;
+}
+.card-text span{
+    color: #0cc26a;
+    font-size: 16px;
+}
+.card-text .btn{
+    background-color:#ff4800;
+    font-size: 12px;
+    color: white;
+    border-radius: 1px;
+}
+#lamps h3{
+    font-size: 40px;
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.row2 .card{
+    padding: 20px;
+}
+.row2 .card img{
+    transition: transform 0.3s ease-in;
+    width: 200px;
+    margin-left: 8%;
+}
+.row2 .card img:hover{
+    transform: scale(1.2);
+}
+#living h3{
+    font-size: 40px;
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.row3 .card img{
+    width: 269px;
+    height: 300px;
+}
+.row3 .card{
+    transition: transform 0.3s ease-in;
+    width: 200px;
+    margin-left: 8%;
+}
+.row3 .card:hover{
+    transform: scale(1.05);
+}
+.bank img{
+    width: 80px;
+    height: 40px;
+}
+footer{
+    margin-top: 80px;
+    background: linear-gradient(to bottom,rgba(250, 196, 20, 0.712), #e74d3cad);;
+}
+footer a{
+    text-decoration: none;
+}
+    .row4{
+        margin-left: 20%;
+    }
+
+
+
